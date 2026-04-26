@@ -1,0 +1,85 @@
+CLEANING_FIN — STANDARD OPERATING PROCEDURE (README)
+======================================================
+
+Project:        cleaning_fin
+Location:       /Users/kavinsampath/Developer/cleaning_fin
+Last Updated:   2026-04-26
+
+
+1. OVERVIEW
+-----------
+This document is the SOP / README for the cleaning_fin project. It explains
+where the project lives on disk and how to open the folder from macOS Finder.
+
+
+2. PROJECT LOCATION
+-------------------
+Absolute path:
+    /Users/kavinsampath/Developer/cleaning_fin
+
+Parent folder (in Finder sidebar terms):
+    Macintosh HD > Users > kavinsampath > Developer > cleaning_fin
+
+
+3. HOW TO ACCESS THIS FOLDER FROM FINDER
+----------------------------------------
+
+Method A — "Go to Folder" shortcut (fastest)
+    1. Click the Finder icon in the Dock to make Finder the active app.
+    2. Press Command + Shift + G  (Cmd + Shift + G).
+    3. In the "Go to Folder" dialog that appears, paste:
+            /Users/kavinsampath/Developer/cleaning_fin
+    4. Press Return. Finder opens the cleaning_fin folder.
+
+Method B — Navigate manually from the Home folder
+    1. Open Finder.
+    2. From the menu bar choose: Go > Home   (or press Cmd + Shift + H).
+    3. Open the "Developer" folder.
+    4. Open the "cleaning_fin" folder.
+
+Method C — Open from Terminal
+    1. Open the Terminal app (Applications > Utilities > Terminal).
+    2. Run:
+            open /Users/kavinsampath/Developer/cleaning_fin
+    3. Finder opens the folder in a new window.
+
+Method D — Add to Finder Sidebar (one-time setup, then one click forever)
+    1. Use Method A or B to open the cleaning_fin folder in Finder.
+    2. Drag the folder icon from the Finder window's title bar (or from its
+       parent folder) into the Favorites section of the Finder sidebar.
+    3. From now on, click "cleaning_fin" in the sidebar to open it instantly.
+
+
+4. TIPS
+-------
+  - To reveal the folder in Finder from a Terminal that is already inside it:
+        open .
+  - To copy the path quickly: in Finder, select the folder, press
+    Cmd + Option + C, then paste anywhere.
+  - To show hidden files (e.g., .expo) in Finder: press Cmd + Shift + . (period).
+
+
+5. CONTENTS AT A GLANCE
+-----------------------
+  App.js                — App entry point
+  app.json              — Expo configuration
+  babel.config.js       — Babel configuration
+  package.json          — Dependencies and scripts
+  components/           — Reusable UI components
+  context/              — React context providers
+  data/                 — Static / seed data
+  ios/                  — iOS native project
+  navigation/           — Navigation configuration
+  notifications/        — Notification logic
+  screens/              — Application screens
+  storage/              — Persistence helpers
+  theme.js              — Theme / styling constants
+  utils/                — Utility functions
+  node_modules/         — Installed dependencies (do not edit)
+
+
+6. CONTACT
+----------
+Owner:   ksampath2021@gmail.com
+
+— End of SOP —
